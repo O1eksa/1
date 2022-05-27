@@ -1,1 +1,2 @@
-console.log (123)
+let var = document.querySelector('input[name="input"]')
+console.log (var)
