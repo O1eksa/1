@@ -1,2 +1,8 @@
-let var = document.querySelector('input[name="input"]')
-console.log (var)
+let el = document.querySelector('input[name="in"]');
+
+el.addEventListener('change', (ev) => {
+    const text = ev.target.value;
+
+    console.log(text);
+});
+
